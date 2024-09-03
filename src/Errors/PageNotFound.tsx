@@ -16,7 +16,7 @@ export default function PageNotFound() {
 
     return (
         <div className="card flex justify-content-center">
-            <Card title="Page Not Found" footer={footer} header={header} className="md:w-25rem">
+            <Card title="Page Not Found" footer={footer} header={header} >
             </Card>
         </div>
     )

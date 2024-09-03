@@ -70,7 +70,7 @@ export default function Header() {
     return (
         <nav className="app-header">
             <div className="title">
-                Dashboard Builder
+                App Builder
             </div>
             <div className="options">
                 <div className="card flex justify-content-center">
