@@ -1,0 +1,44 @@
+.widget-box {
+    $items-per-row: 4;
+    $box-width: calc((100% - (12px * $items-per-row))/$items-per-row);
+    border: 1px dashed gray;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 12px;
+    cursor: move;
+    border-radius: 6px;
+    width: $box-width;
+}
+
+.config-layout {
+    $half-width: calc((100% - 12px)/2);
+    display: flex;
+
+    .widgets {
+        width: $half-width;
+        margin-right: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .edit-options {
+        width: $half-width;
+        display: flex;
+        flex-wrap: wrap;
+
+        .option {
+            margin-right: 12px;
+        }
+    }
+}
+
+.layout {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.block {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid var(--surface-300);
+}

@@ -1,0 +1,19 @@
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .no-data-container {
+
+        .title {
+            font-size: 40px;
+            color: var(--surface-600);
+            font-weight: 500;
+        }
+
+        .text {
+            color: var(--surface-500);
+        }
+    }
+}
