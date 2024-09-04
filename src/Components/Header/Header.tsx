@@ -31,11 +31,7 @@ export default function Header() {
                 path: "/edit-menu",
                 name: "Edit Menu"
             }]
-        },
-        {
-            path: "/page-view",
-            name: "Menu View"
-        },
+        }
     ]
 
     const navigate = useNavigate();

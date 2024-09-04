@@ -5,7 +5,6 @@ const Page = lazy(() => import("./Pages/Page"))
 const DashboardConfig = lazy(() => import("./Pages/Dashboard/Configuration"))
 const DashboardView = lazy(() => import("./Pages/Dashboard/View"))
 const EChart = lazy(() => import("./Pages/EChart/EChart"))
-const PageView = lazy(() => import("./Pages/MenuScreen/PageView"))
 const MenuConfig = lazy(() => import("./Pages/MenuScreen/MenuConfig"))
 const EditMenu = lazy(() => import("./Pages/MenuScreen/EditMenu"))
 
@@ -35,10 +34,6 @@ function App() {
         {
           path: "/edit-menu",
           element: <EditMenu />
-        },
-        {
-          path: "/page-view",
-          element: <PageView />
         },
       ]
     },

@@ -69,7 +69,7 @@ export default function MenuConfig() {
                                 menusData.length ? <>
                                     {
                                         menusData.map(e => (
-                                            <div className="col-2 cursor-pointer" key={e._id} onClick={() => navigateToEdit(e)}>
+                                            !e.static && <div className="col-2 cursor-pointer" key={e._id} onClick={() => navigateToEdit(e)}>
                                                 <div className="border-round border-1 surface-border p-4 surface-card">
                                                     {e.name}
                                                 </div>
